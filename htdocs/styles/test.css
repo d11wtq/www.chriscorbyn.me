@@ -1,0 +1,149 @@
+.content {
+  max-width: 1444px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.role {
+  font-weight: bold;
+}
+
+.introduction {
+  width: 100%;
+  background: #444;
+  color: #fff;
+  overflow: auto;
+}
+
+  .introduction h1 {
+    float: left;
+    text-align: left;
+    font-family: monospace;
+    font-size: 34px;
+    margin: 24px 80px;
+  }
+
+.statement {
+  width: 100%;
+  background: #f4f4f4;
+  color: #fff;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+  .statement p {
+    margin: 0;
+    padding: 32px;
+    color: #444;
+    font-size: 16px;
+  }
+
+.devops {
+  padding: 80px 0;
+  background: #fbf7f7;
+}
+
+.one-liner {
+  font-weight: bold;
+}
+
+.social-links {
+  float: right;
+  margin: 28px 80px;
+}
+
+  .social-links dt {
+    display: block;
+    float: left;
+    margin: 0 16px;
+  }
+
+  .social-links dd {
+    display: none;
+  }
+
+  .social-links a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    color: inherit;
+    text-decoration: none;
+    background-size: 32px 32px;
+  }
+
+    .social-links a span {
+      display: none;
+    }
+
+  .social-links a.email:before {
+    content: "@";
+    display: block;
+    font-size: 32px;
+    padding: 6px 0;
+  }
+
+  .social-links a.twitter {
+    background-image: url("/images/twitter_logo_64px.png");
+  }
+
+  .social-links a.github {
+    background-image: url("/images/github_logo_64px.png");
+  }
+
+h2, h3 {
+  font-family: monospace;
+}
+
+.execute:before {
+  content: "./";
+}
+
+.array:before {
+  content: "[]";
+}
+
+ul.summary {
+  list-style: none;
+  padding: 0;
+  margin: 10px 20px;
+  color: #888;
+  word-spacing: .2em;
+}
+
+  ul.summary li {
+    display: inline;
+  }
+
+  ul.summary li:after {
+    content: ", "
+  }
+
+  ul.summary li:last-child:after {
+    content: ""
+  }
+
+ul.detail {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-grid .mdl-cell {
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  .introduction h1 {
+    float: none;
+    text-align: center;
+    margin: 24px 0;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .devops {
+    padding: 24px 0;
+  }
+}
