@@ -4,8 +4,8 @@ depends: [hird-vpc]
 
 load-balancer:
   domain:
-    zone: hird.io
-    name: 2.www.hird.io
+    zone: chriscorbyn.co.uk
+    name: 1.www.chriscorbyn.co.uk
 
 containers:
   webapp:
