@@ -1,0 +1,267 @@
+a {
+  color: #99bbdd;
+}
+
+h1, h2, h3 {
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3, h4 {
+  margin: 16px auto;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  width: 100%;
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  padding: 80px 20px;
+}
+
+address {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.content {
+  max-width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.role {
+  font-weight: bold;
+}
+
+.invert {
+  background: #444;
+  color: #f8f8f8;
+}
+
+  .invert ul.summary {
+    color: #aaa;
+  }
+
+  .invert ul.detail {
+    font-weight: 300;
+  }
+
+  .invert a {
+    font-weight: 300;
+  }
+
+.paper {
+  background: #f8f8f8;
+  color: #444;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+h1.title {
+  float: left;
+  text-align: left;
+  margin: 24px 80px;
+}
+
+.statement {
+  margin-bottom: 40px;
+}
+
+  .statement p {
+    margin: 0;
+    padding: 32px;
+  }
+
+.devops,
+.employment {
+  padding: 24px 0;
+}
+
+.academic .experience-grid {
+  padding-top: 0;
+}
+
+  .academic .experience-grid .mdl-cell {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .academic h2 {
+    margin-bottom: 0;
+  }
+
+.one-liner {
+  font-weight: bold;
+}
+
+.social-links {
+  float: right;
+  margin: 28px 80px;
+}
+
+  .social-links dt {
+    display: block;
+    float: left;
+    margin: 0 16px;
+  }
+
+  .social-links dd {
+    display: none;
+  }
+
+  .social-links a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    color: inherit;
+    text-decoration: none;
+    background-size: 32px 32px;
+  }
+
+    .social-links a span {
+      display: none;
+    }
+
+  .social-links a.email:before {
+    content: "@";
+    display: block;
+    font-size: 32px;
+    padding: 6px 0;
+  }
+
+  .social-links a.twitter {
+    background-image: url("/images/twitter_logo_64px.png");
+  }
+
+  .social-links a.github {
+    background-image: url("/images/github_logo_64px.png");
+  }
+
+.section-header:before {
+  color: #888;
+  content: "# ";
+}
+
+  .section-header--and:before {
+    content: "& ";
+  }
+
+  .section-header--dotslash:before {
+    content: "./";
+  }
+
+  .section-header--vector:before {
+    content: "[]";
+  }
+
+ul.summary {
+  list-style: none;
+  padding: 0;
+  margin: 10px 20px;
+  color: #888;
+  word-spacing: .2em;
+  font-weight: 300;
+}
+
+  ul.summary li {
+    display: inline;
+  }
+
+  ul.summary li:after {
+    content: ", "
+  }
+
+  ul.summary li:last-child:after {
+    content: ""
+  }
+
+  ul.summary a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+ul.detail {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+  ul.detail li {
+    display: block;
+    margin-bottom: 0.35em;
+  }
+
+.experience-grid .mdl-cell {
+  padding: 12px 20px;
+}
+
+.experience-grid__role {
+  display: block;
+  overflow: auto;
+  padding: 0;
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+  .experience-grid__role dt {
+    display: none;
+  }
+
+  .experience-grid__role dd {
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+
+  .experience-grid__role .period {
+    font-weight: 400;
+    margin-left: 8px;
+  }
+
+  .experience-grid__role .period:before {
+    content: "~ ";
+    font-weight: 300;
+  }
+
+@media (max-width: 900px) {
+  h1.title {
+    float: none;
+    text-align: center;
+    margin: 24px 0;
+  }
+
+  .social-links {
+    display: none;
+  }
+}
