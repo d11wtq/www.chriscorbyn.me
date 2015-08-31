@@ -3,45 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link
-      rel="stylesheet"
-      href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
-      type="text/css">
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/styles/main.css" rel="stylesheet">
-
-    <title>Chris Corbyn</title>
+    <title>Chris Corbyn &ndash; Experienced web developer</title>
   </head>
 
   <body>
-    <div class="mdl-layout mdl-js-layout">
-      <main class="mdl-layout__content">
-        <section class="introduction invert">
-          <div class="content">
-            <h1 class="title">Chris Corbyn</h1>
+    <div class="layout">
+      <header>
+        <div class="layout__row layout__row--inverted">
+          <div class="layout__content">
+            <h1 class="heading-title">Chris Corbyn</h1>
 
             <dl class="social-links">
-              <dt><a class="github" href="https://github.com/d11wtq"><span>GitHub</span></a></dt>
+              <dt><a class="logo logo--github" href="https://github.com/d11wtq"><span>GitHub</span></a></dt>
               <dd><a href="https://github.com/d11wtq">@d11wtq</a></dd>
 
-              <dt><a class="twitter" href="https://twitter.com/d11wtq"><span>Twitter</span></a></dt>
+              <dt><a class="logo logo--twitter" href="https://twitter.com/d11wtq"><span>Twitter</span></a></dt>
               <dd><a href="https://twitter.com/d11wtq">@d11wtq</a></dd>
 
-              <dt><a class="email" href="mailto:chris@w3style.co.uk"><span>Email</span></a></dt>
+              <dt><a class="logo logo--email" href="mailto:chris@w3style.co.uk"><span>Email</span></a></dt>
               <dd><a href="mailto:chris@w3style.co.uk">chris@w3style.co.uk</a></dd>
             </dl>
           </div>
-        </section>
+        </div>
+      </header>
 
-        <section class="statement paper">
-          <div class="content">
+      <main>
+        <section id="statement" class="layout__row layout__row--paper">
+          <div class="layout__content">
             <p>
               <span class="one-liner">Experienced web developer</span> with over
               a decade of experience in the web development industry, working
@@ -50,11 +40,11 @@
           </div>
         </section>
 
-        <section class="technology">
-          <div class="content">
+        <section id="technology" class="layout__row">
+          <div class="layout__content">
             <h2 class="section-header section-header--vector">Technology</h2>
 
-            <ul class="summary">
+            <ul class="experience-summary">
               <li>Ruby</li>
               <li>PHP</li>
               <li>Node.js</li>
@@ -69,11 +59,11 @@
               <li>Git</li>
             </ul>
 
-            <div class="experience-grid mdl-grid">
-              <div class="mdl-cell mdl-cell--4-col">
+            <div class="grid">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Ruby</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Rails</li>
                   <li>Sinatra</li>
                   <li>DataMapper</li>
@@ -82,7 +72,7 @@
                   <li>Sidekiq</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Active <a href="https://github.com/search?q=user:d11wtq+language:ruby">open-source contributor</a></li>
                   <li>Knowledge of C Ruby internals</li>
                   <li>Attended conferences in <a href="http://rubykaigi.org/2014">Japan</a>
@@ -90,61 +80,61 @@
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>PHP</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Symfony</li>
                   <li>Zend Framework</li>
                   <li>Doctrine</li>
                   <li>PHPUnit</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Author of <a href="https://github.com/swiftmailer/swiftmailer">Swift Mailer</a>
                     &amp; <a href="https://github.com/borisrepl/boris">Boris</a></li>
                   <li>Launched <a href="https://flippa.com/">Flippa.com</a> initially in PHP</li>
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Databases</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>MySQL</li>
                   <li>PostgreSQL</li>
                   <li>SQLite</li>
                   <li><dfn>Data Warehousing</dfn></li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Designed complex production schemas</li>
                   <li>Developed complex reports in SQL</li>
                   <li>Migrated large databases across data-centers</li>
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Objective-C</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Mac OS <abbr title="Software Development Kit">SDK</abbr></li>
                   <li>iOS <abbr title="Software Development Kit">SDK</abbr></li>
                   <li>Xcode</li>
                   <li>GHUnit</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Built <a href="https://itunes.apple.com/au/app/flippa/id612277155?mt=8">production iOS apps</a></li>
                   <li>Developed open source frameworks</li>
                   <li>Created a programming text editor for OS X</li>
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Node.js</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Express</li>
                   <li>WebPack</li>
                   <li>React</li>
@@ -152,7 +142,7 @@
                   <li>Sequelize</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Built <a href="http://isomorphic.net/"><dfn>Isomorphic JavaScript</dfn></a> apps</li>
                   <li>Developed lightweight <dfn>microservices</dfn></li>
                   <li>Created deployment tooling with the
@@ -164,11 +154,11 @@
           </div>
         </section>
 
-        <section class="devops paper">
-          <div class="content">
+        <section id="devops" class="layout__row layout__row--paper">
+          <div class="layout__content">
             <h2 class="section-header section-header--dotslash">DevOps</h2>
 
-            <ul class="summary">
+            <ul class="experience-summary">
               <li>Linux</li>
               <li>Apache</li>
               <li>MySQL</li>
@@ -182,11 +172,11 @@
               <li>Packer</li>
             </ul>
 
-            <div class="experience-grid mdl-grid">
-              <div class="mdl-cell mdl-cell--4-col">
+            <div class="grid">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Amazon</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>EC2</li>
                   <li>CloudFormation</li>
                   <li>VPC</li>
@@ -198,23 +188,24 @@
                   <li>SQS</li>
                 </ul>
 
-                <ul class="detail">
-                  <li>Built <a href="http://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile"><dfn>Infrastructure as Code</dfn></a> tools</li>
+                <ul class="experience-detail">
+                  <li>Built <a href="http://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile"><dfn>Infrastructure as Code</dfn></a>
+                    tools</li>
                   <li>Implemented zero-downtime deployment techniques</li>
                   <li>Managed centralized logging systems</li>
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Docker</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Workflow</li>
                   <li>Deployment</li>
                   <li>Logging</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experince-detail">
                   <li>Created <a href="https://github.com/search?q=user:d11wtq+docker">generic docker images</a>
                     for abstract use</li>
                   <li>Open source <a href="https://github.com/d11wtq/dockerpty">collaborator of Docker Compose</a></li>
@@ -222,10 +213,10 @@
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3>Linux</h3>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Ubuntu</li>
                   <li>Gentoo</li>
                   <li>ArchLinux</li>
@@ -234,7 +225,7 @@
                   <li>awk</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Provisioned and managed physical servers</li>
                   <li>Installed and configured system services</li>
                   <li>Defined route tables and firewall rules</li>
@@ -244,11 +235,11 @@
           </div>
         </section>
 
-        <section class="employment invert">
-          <div class="content">
+        <section id="employment" class="layout__row layout__row--inverted">
+          <div class="layout__content">
             <h2 class="section-header section-header--and">Employment</h2>
 
-            <ul class="summary">
+            <ul class="experience-summary">
               <li><a href="https://flippa.com/">Flippa.com</a></li>
               <li><a href="http://realestate.com.au/">REA Group</a></li>
               <li><a href="http://sitepoint.com/">sitepoint.com</a></li>
@@ -256,23 +247,23 @@
               <li><a href="https://en.wikipedia.org/wiki/Electronic_Data_Systems">EDS</a></li>
             </ul>
 
-            <div class="experience-grid mdl-grid">
-              <div class="mdl-cell mdl-cell--4-col">
+            <div class="grid">
+              <div class="grid__cell grid__cell--4-col">
                 <h3><a href="https://flippa.com/">Flippa.com</a></h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">Development Manager</dd>
+                  <dd class="employment-role__position">Development Manager</dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2015</span>
                     -
                     <span class="date">Today</span>
                   </dd>
                 </dl>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Ruby</li>
                   <li>Node.js</li>
                   <li>elasticsearch</li>
@@ -285,29 +276,29 @@
                   <li>Code Review</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Lead the team through a transition to <abbr title="Service Oriented Architecture">SOA</abbr></li>
                   <li>Introduced deployment tooling with <abbr title="Amazon Web Services">AWS</abbr></li>
                   <li>Worked with the developers to rebuild the frontend in React &amp; Node.js</li>
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3><a href="http://realestate.com.au/">realestate.com.au</a></h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">Technical Lead</dd>
+                  <dd class="employment-role__position">Technical Lead</dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2014</span>
                     -
                     <span class="date">2015</span>
                   </dd>
                 </dl>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Ruby</li>
                   <li>MySQL</li>
                   <li>AWS</li>
@@ -317,7 +308,7 @@
                   <li><abbr title="Hypertext Application Language">HAL</abbr></li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Developed deployment tooling with Docker &amp;
                     <abbr title="Amazon Web Services">AWS</abbr></li>
                   <li>Created <dfn>virtual machines</dfn> for large projects</li>
@@ -325,32 +316,32 @@
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3><a href="https://flippa.com/">Flippa.com</a></h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">Technical Lead</dd>
+                  <dd class="employment-role__position">Technical Lead</dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2009</span>
                     -
                     <span class="date">2014</span>
                   </dd>
                 </dl>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Ruby</li>
                   <li>PHP</li>
                   <li>MySQL</li>
                   <li>AWS</li>
                   <li>elasticsearch</li>
                   <li>PostgreSQL</li>
-                  <li>Objective-C</li>
+                  <li>Obj-C</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Successfully launched the first version of <a href="https://flippa.com/">Flippa.com</a></li>
                   <li>Played a lead role in the decision to transition from PHP to Ruby on Rails</li>
                   <li>Built and shipped the
@@ -358,87 +349,88 @@
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <hr>
+
+              <div class="grid__cell grid__cell--4-col">
                 <h3><a href="http://sitepoint.com/">SitePoint.com</a></h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">Senior Developer</dd>
+                  <dd class="employment-role__position">Senior Developer</dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2007</span>
                     -
                     <span class="date">2009</span>
                   </dd>
                 </dl>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>PHP</li>
                   <li>MySQL</li>
                   <li>AWS</li>
                   <li>JavaScript</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Full-stack developer of various company projects</li>
                   <li>Collaborated with a skilled team of developers on the initial version of
                     <a href="https://99designs.com/">99designs.com</a></li>
                 </ul>
               </div>
 
-
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3><a href="http://www.iris.ac/">IRIS.ac</a></h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">Developer</dd>
+                  <dd class="employment-role__position">Developer</dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2005</span>
                     -
                     <span class="date">2007</span>
                   </dd>
                 </dl>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>PHP</li>
                   <li>MySQL</li>
                   <li>JavaScript</li>
                   <li>Linux</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Full stack developer on a behaviour management system for schools in the UK</li>
                   <li>Managed physical servers in a data center</li>
                   <li>Introduced best practices, such as <dfn>automated testing</dfn></li>
                 </ul>
               </div>
 
-              <div class="mdl-cell mdl-cell--4-col">
+              <div class="grid__cell grid__cell--4-col">
                 <h3><a href="https://en.wikipedia.org/wiki/Electronic_Data_Systems">EDS</a></h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">IT Support</dd>
+                  <dd class="employment-role__position">IT Support</dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2004</span>
                     -
                     <span class="date">2005</span>
                   </dd>
                 </dl>
 
-                <ul class="summary">
+                <ul class="experience-summary">
                   <li>Windows</li>
                   <li>AS/400</li>
                   <li>Citrix</li>
                 </ul>
 
-                <ul class="detail">
+                <ul class="experience-detail">
                   <li>Provided technical support to banks, the police and insurance companies</li>
                 </ul>
               </div>
@@ -446,24 +438,23 @@
           </div>
         </section>
 
-
-        <section class="academic paper">
-          <div class="content">
+        <section id="academic" class="layout__row layout__row--paper">
+          <div class="layout__content">
             <h2 class="section-header">Academic</h2>
 
-            <div class="experience-grid mdl-grid">
-              <div class="mdl-cell mdl-cell--12-col">
+            <div class="grid">
+              <div class="grid__cell grid__cell--12-col">
                 <h3>Durham University</h3>
 
-                <dl class="experience-grid__role">
+                <dl class="employment-role">
                   <dt>Position</dt>
-                  <dd class="position">
+                  <dd class="employment-role__position">
                     <abbr title="Diploma of Higher Education">DHE</abbr>
                     Natural Sciences
                   </dd>
 
                   <dt>Period</dt>
-                  <dd class="period">
+                  <dd class="employment-role__period">
                     <span class="date">2001</span>
                     -
                     <span class="date">2004</span>
@@ -473,17 +464,14 @@
             </div>
           </div>
         </section>
-
-        <footer>
-          <div class="copyright">
-            <address>Copyright &copy; 2015 Chris Corbyn</address>
-          </div>
-        </footer>
       </main>
-    </div>
 
-    <script
-      src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js">
-    </script>
+      <footer>
+        <address>
+          <span class="copyright">Copyright &copy; 2015</span> Chris Corbyn
+          <a class="email" href="mailto:chris@w3style.co.uk">chris@w3style.co.uk</a>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
