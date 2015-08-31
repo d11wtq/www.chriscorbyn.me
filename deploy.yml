@@ -9,5 +9,5 @@ load-balancer:
 
 containers:
   webapp:
-    image: d11wtq/chriscorbyn-co-uk:2015-08-29-01
+    image: d11wtq/chriscorbyn-co-uk:2015-08-31-01
     ports: {80: 8080}
