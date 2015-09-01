@@ -166,6 +166,8 @@ hr {
 .grid {
   width: 100%;
   overflow: auto;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
   display: flex;
   flex-flow: row wrap;
 }
