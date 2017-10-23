@@ -230,11 +230,11 @@ hr {
   }
 
   .logo--twitter {
-    background-image: url("/images/twitter_logo_64px.png");
+    background-image: url("../images/twitter_logo_64px.png");
   }
 
   .logo--github {
-    background-image: url("/images/github_logo_64px.png");
+    background-image: url("../images/github_logo_64px.png");
   }
 
   .logo--email:before {
